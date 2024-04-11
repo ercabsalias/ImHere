@@ -20,9 +20,9 @@ export default function Home() {
           <Text style={styles.buttonText}>+</Text>
         </TouchableOpacity>
       </View>
-      <Participant />
-      <Participant />
-      <Participant />
+      <Participant name="Ernesto Salias" />
+      <Participant name="Pedro Makenga" />
+      <Participant name="Domingos Matumona" />
     </View>
   );
 }
